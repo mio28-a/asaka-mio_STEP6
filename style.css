@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: pink;
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+nav{
+    width: 180px;
+    padding: 30px;
+    background-color: aquamarine;
+}
+
+main{
+    flex: 1;
+    padding: 70px 0 60px 140px;
+    background-color: #fff0c9;
+    box-sizing: border-box;
+}
+
+.buttons{
+    margin-left: 400px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    width: fit-content;
+}
+
+footer{
+    height: 65px;
+    padding: 0px;
+    background-color: lightgray;
+}
+
+.confirm-table{
+    border-collapse: separate;
+    border-spacing: 2px;
+    border: 2px solid #555;
+    width: 310px;
+}
+
+.confirm-table th,
+.confirm-table td{
+    border: 1px solid #777;
+    padding: 3px;
+}
+
+.confirm-table th{
+    width: 115px;
+    white-space: nowrap;
+}
+
+.confirm-table td{
+    width: 195px;
+}
